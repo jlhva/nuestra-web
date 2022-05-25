@@ -22,4 +22,10 @@ tr:hover {
     background-color: #53212B;
     cursor:pointer;
 }
-
+@font-face{
+    font-family: valoletra;
+    src: url(Valorant\ Font.ttf)
+}
+h1, a{
+    font-family: valoletra;
+}
