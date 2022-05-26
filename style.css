@@ -1,31 +1,152 @@
-body{
-    background-color: #dc3d4b;
-    color: white;
+#mapasValo {
+    display: flex;
 }
 
-table{
+.navbar {
+    border: 1px #FD4556 solid;
+}
+
+body {
+    background-color: #eee8d5;
+}
+
+head h1 {
+    color: #FD4556
+}
+
+body h1 {
+    background-color: #eee8d5;
+    color: #FD4556;
+}
+
+p,
+h5 {
+    color: black;
+}
+
+div img {
+    padding: 50px 115px 20px;
+    width: 70%;
+}
+
+.card-title {
+    font-family: valoletra;
+    color: #FD4556;
+}
+
+#cardIndex {
+    padding: 20px 200px 20px;
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
 }
-th,td {
-    border:solid 1px;
+
+th,
+td {
+    border: solid 1px;
     padding: 5px;
-}
-th {
-    background-color: #53212B;
     text-align: center;
 }
-tr:nth-child(even){
+
+th {
+    background-color: #da3f4f;
+}
+
+tr:nth-child(odd) {
     background-color: #FD4556;
 }
+
 tr:hover {
     background-color: #53212B;
-    cursor:pointer;
+    cursor: pointer;
 }
-@font-face{
+
+@font-face {
     font-family: valoletra;
     src: url(Valorant\ Font.ttf)
 }
-h1, a{
+
+h1,
+a {
     font-family: valoletra;
 }
+
+.centerClock {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.fechaReloj {
+    width: 40%;
+    margin: 32px;
+}
+
+.fechaReloj p {
+    display: inline-block;
+}
+
+.fecha {
+    font-family: valoletra;
+    background: #eee8d5;
+    padding: auto;
+    width: auto;
+    color: #eee8d5;
+}
+
+.reloj {
+    font-family: valoletra;
+    background: #eee8d5;
+    padding: auto;
+    width: auto;
+    color: #eee8d5;
+}
+
+.nav-links {
+    color: #eee8d5;
+    background-color: #FD4556;
+    font-family: valoletra;
+}
+
+/* iconos links paginas*/
+.container-redes {
+    display: flex;
+    height: 5;
+
+
+}
+
+.container-redes ul li {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 5px;
+    text-align: center;
+}
+
+.container-redes ul li a {
+    display: block;
+    padding: o 10px;
+    background: #eee8d5;
+    color: #FD4556;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+
+.container-redes ul:hover a {
+    filter: blur(2px);
+}
+
+.container-redes ul li a:hover {
+    transform: translateY(-2px) scale(1.5);
+    box-shadow: o 5px 5px 0px rgba(0, 0, 0, .2);
+    filter: none;
+}
+#map {
+    height: 400px;
+    
+    width: 100%;
+    
+  }
