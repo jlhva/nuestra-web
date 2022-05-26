@@ -10,7 +10,7 @@ $.get("https://valorant-api.com/v1/maps", function () {
             var displayIcon = '';
             if (mapa.displayIcon !== null) {
                 $('#mapasValo').append(`<div class="carousel-item">
-                <img src="${mapa.displayIcon}" class="d-block w-100" alt="...">
+                <img src="${mapa.displayIcon}" class="d-block w-100" alt="mapas">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>${mapa.displayName}</h5>
                 </div>

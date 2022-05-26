@@ -169,10 +169,11 @@ a {
     width:100%;
  }
 #va-img{
-    padding: 50px 115px 20px;
-    width: 70%;
+    padding: 20px 115px 20px;
+    width: 80%;
     margin-bottom: 100px;
-    margin-left: 280px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
 .accordion{
@@ -183,3 +184,23 @@ a {
     background-color: #eee8d5;
 }
 
+.d-block{
+    height: 700px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0.5px;
+    font-family: valoletra;
+    color:black;
+}
+#contrasena {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+h6{
+    text-align: center;
+    margin-top: 50px;
+    
+}

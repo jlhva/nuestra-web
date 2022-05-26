@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    border: 1px #FD4556 solid;
+    border: 1px white solid;
 }
 
 body {
@@ -17,12 +17,12 @@ head h1 {
 
 body h1 {
     background-color: #364966;
-    color: white;
+    color: #FD4556;
 }
 
 p,
 h5 {
-    color: white;
+    color: black;;
 }
 
 div img {
@@ -169,3 +169,74 @@ a {
 .accordion-body{
      color: black;
  }
+ #armas {
+    font-family: valoletra;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+   
+#estadisticas{
+        font-family: valoletra;
+        text-align: center;
+        font-size: x-large;
+        margin-top: 100px;
+}
+.card{
+    background-color: #364966;
+}
+.d-block{
+    height: 700px;
+}
+#armas {
+    font-family: valoletra;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+#estadisticas{
+    font-family: valoletra;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+ }
+#va-img{
+    padding: 20px 115px 20px;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.accordion{
+    text-align: center;
+    padding-top: 50px;
+}
+.body{
+    background-color: #eee8d5;
+}
+
+.d-block{
+    height: 700px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0.5px;
+    font-family: valoletra;
+    color:black;
+}
+#contrasena {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+h6{
+    text-align: center;
+    margin-top: 50px;
+}
