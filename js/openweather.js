@@ -8,7 +8,7 @@ navigator.geolocation.getCurrentPosition((position) => {
 .done(function(data) {
     console.log( "second success" );
     console.log(JSON.stringify(data.main.temp));
-    $('#temperatura').append(`Temperatura: ${data.main.temp}`)
+    $('#temperatura').append(`Temperatura: ${data.main.temp} c°`)
 })
 .fail(function(error) {
     console.log(error);
