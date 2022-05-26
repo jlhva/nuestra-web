@@ -9,13 +9,12 @@ $.get("https://valorant-api.com/v1/maps", function () {
             var displayName = '';
             var displayIcon = '';
             if (mapa.displayIcon !== null) {
-                $('#mapasValo').append(`<div class="col" style="padding-top:10px"><div class="card" style="width: 18rem;">
-                <img src="${mapa.displayIcon}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text text-black">${mapa.displayName}</p>
-                    </div>
+                $('#mapasValo').append(`<div class="carousel-item">
+                <img src="${mapa.displayIcon}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>${mapa.displayName}</h5>
                 </div>
-                </div>`);
+              </div>`);
             }
 
         }

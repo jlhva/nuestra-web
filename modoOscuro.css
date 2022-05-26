@@ -4,11 +4,11 @@
 
 .navbar {
     border: 1px #FD4556 solid;
-    
 }
 
 body {
-    background-color: #eee8d5;
+    background-color: #364966;
+    color: white;
 }
 
 head h1 {
@@ -16,18 +16,19 @@ head h1 {
 }
 
 body h1 {
-    background-color: #eee8d5;
-    color: #FD4556;
+    background-color: #364966;
+    color: white;
 }
 
 p,
 h5 {
-    color: black;
+    color: white;
 }
 
 div img {
     padding: 50px 115px 20px;
     width: 70%;
+    display: flex;
 }
 
 .card-title {
@@ -90,16 +91,16 @@ a {
 
 .fecha {
     font-family: valoletra;
-    background: #eee8d5;
+    background: #364966;
     width: auto;
-    color: #eee8d5;
+    color: white;
 }
 
 .reloj {
     font-family: valoletra;
-    background: #eee8d5;
+    background: #364966;
     width: auto;
-    color: #eee8d5;
+    color: white;
 }
 
 .nav-links {
@@ -127,8 +128,8 @@ a {
 .container-redes ul li a {
     display: block;
     padding: 10px;
-    background: #eee8d5;
-    color: #FD4556;
+    background: #364966;
+    color: white;
     line-height: 50px;
     font-size: 20px;
 
@@ -145,41 +146,26 @@ a {
 }
 #map {
     height: 400px;
+    
     width: 100%;
     
   }
-.card {
-    background-color: #eee8d5;
-}
-#armas {
-    font-family: valoletra;
-    text-align: center;
-    font-size: x-large;
-    margin-top: 100px;
-}
-#estadisticas{
-    font-family: valoletra;
-    text-align: center;
-    font-size: x-large;
-    margin-top: 100px;
-}
-#footer {
+  #footer {
     position:absolute;
     bottom:0;
     width:100%;
  }
-#va-img{
+ 
+ #va-img{
     padding: 50px 115px 20px;
     width: 70%;
     margin-bottom: 100px;
-    margin-left: 280px;
-}
-
+    margin-left: 280px;}
+ 
 .accordion{
     text-align: center;
-    padding-top: 50px;
-}
-.body{
-    background-color: #eee8d5;
-}
+    padding-top: 50px;}
 
+.accordion-body{
+     color: black;
+ }

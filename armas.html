@@ -6,18 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <h1 class="text-center"> Estadisticas De Armas </h1>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet " href="style.css">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <link rel="stylesheet " href="style.css" id="dark-theme"/>
 </head>
 
 <body>
-
-    <div class="container text-center ">
-        <nav class="navbar navbar-expand-lg bg-dark  ">
+    <h1 class="text-center"> VALORANT WIKI </h1>
+    <div class="container text-center">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand " href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,27 +24,178 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav nav-pills navfill ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Index</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="agentes.html">Agentes</a>
+                            <a class="nav-link"id="nav1" href="agentes.html">Agentes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="armas.html">Armas</a>
+                            <a class="nav-link"id="nav2"href="armas.html">Armas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="mapas.html   ">Mapas</a>
+                            <a class="nav-link "id="nav3"href="mapas.html">Mapas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="nosotros.html">Nosotros</a>
+                            <a class="nav-link "id="nav4"href="nosotros.html">Nosotros</a>
                         <li class="nav-item">
-                            <a class="nav-link " href="contacto.html">Contacto</a>
+                            <a class="nav-link "id="nav5" href="contacto.html">Contacto</a>
                         </li>
+                        <button class="switch" id="switch">
+                            <span><i class="fa-solid fa-sun" id="spanSun"></i></span>
+                            <span><i class="fa-solid fa-moon"id="spanMoon"></i></span>
+                        </button> 
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
+    <p class="armas" id="armas">Armas</p>
+    <div class="card-group" >
+        <div class="card">
+          <img src="img/vandal.webp" class="card-img-top" alt="vandalFoto">
+          <div class="card-body">
+            <h5 class="card-title">Vandal</h5>
+            <p class="card-text">La Vandal inflige mucho daño a larga distancia y es ideal para aquellos que se centran en acertar tiros a la cabeza Sin embargo, va perdiendo estabilidad con el tiempo.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/phantom.webp" class="card-img-top" alt="phantomFoto">
+          <div class="card-body">
+            <h5 class="card-title">Phantom</h5>
+            <p class="card-text">En modo automático es perfecto para los encuentros en espacios reducidos, mientras que en ráfagas cortas son la opción indicada en cualquier otra situación. Es mucho más precisa si no se dispara en movimiento.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/bulldog.webp" class="card-img-top" alt="bulldogPhoto">
+          <div class="card-body">
+            <h5 class="card-title">Bulldog</h5>
+            <p class="card-text"> Rifle mas barato que sus hermanos mayores (vandal,phantom) pero que posee un poderoso modo alternativo dispone de una mira que  permite disparar ráfagas cortas con precisión a media y larga distancia.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/guardian.webp" class="card-img-top" alt="guardianFoto">
+          <div class="card-body">
+            <h5 class="card-title">Guardian</h5>
+            <p class="card-text">Es el rifle para tiradores por excelencia. Es más pesado y cuenta con menos movilidad que los demás, pero también preciso y potente. Perfecto para cazar cabezas a larga y media distancia.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/ares.webp" class="card-img-top" alt="aresFoto">
+          <div class="card-body">
+            <h5 class="card-title">Ares</h5>
+            <p class="card-text">El gran cargador de la Ares significa que se le da de maravilla el fuego continuo e infligir grandes cantidades de daño a grupos de enemigos.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/odin.webp" class="card-img-top" alt="odinFoto">
+          <div class="card-body">
+            <h5 class="card-title">Odin</h5>
+            <p class="card-text">Dispara de forma continua e inflige mucho daño con una estabilidad sorprendente. perfecta para Cubrir de balas a los enemigos en espacios reducidos o recurrir al modo alternativo para convertiros en una torreta andante.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/marshal.webp" class="card-img-top" alt="marshalFoto">
+          <div class="card-body">
+            <h5 class="card-title">Marshal</h5>
+            <p class="card-text">Se trata de un fusil de francotirador ligero con una sola opción de zoom que mantendrá a los enemigos a raya. Eso sí, la baja velocidad de disparo garantiza que, si no aciertas en el objetivo, quedaras expuesto.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/operator.webp" class="card-img-top" alt="operatorFoto">
+          <div class="card-body">
+            <h5 class="card-title">Operator</h5>
+            <p class="card-text">El Operator es un fusil de francotirador de cerrojo muy potente con zoom dual. Cuenta con una movilidad nula, pero sus balas derribarán a cualquiera de un solo impacto.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/bucky.webp" class="card-img-top" alt="buckyFoto">
+          <div class="card-body">
+            <h5 class="card-title">Bucky</h5>
+            <p class="card-text">Pesada pero estable, el modo de disparo principal de la Bucky ayuda a vigilar esquinas en espacios reducidos y resulta ideal para cargar contra los enemigos cuerpo contra cuerpo. El modo de disparo alternativo es preciso a media distancia.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/judge.webp" class="card-img-top" alt="judgeFoto">
+          <div class="card-body">
+            <h5 class="card-title">Judge</h5>
+            <p class="card-text">La Judge es un arma estable, pero se vuelve volátil si se dispara con mucha rapidez.
+                El modo de disparo principal es perfecto para las distancias cortas; si quieres acertar a objetivos a más de un metro de distancia, tienes que apuntar con calma y precisión.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/shorty.webp" class="card-img-top" alt="shortyFoto">
+          <div class="card-body">
+            <h5 class="card-title">Shorty</h5>
+            <p class="card-text">Se trata de una escopeta ligera de barril corto que resulta letal cuerpo a cuerpo pero solo puede dispararse dos veces antes de tener que recargarla. Complementa de maravilla a las armas de larga distancia.</p> 
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/classic.webp" class="card-img-top" alt="classicFoto">
+          <div class="card-body">
+            <h5 class="card-title">Classic</h5>
+            <p class="card-text">El modo de disparo principal es preciso si no se está en movimiento, y también dispone de un modo de disparo en ráfaga para los encuentros cuerpo a cuerpo.</p>        
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/ghost.webp" class="card-img-top" alt="ghostFoto">
+          <div class="card-body">
+            <h5 class="card-title">Ghost</h5>
+            <p class="card-text">La Ghost cuenta también con un amplio cargador por si lo necesitas. Si el objetivo está lejos, tienes que controlar la velocidad de disparo. Pulsa el gatillo con rapidez cuando los tengs cerca</p>           
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/frenzy.webp" class="card-img-top" alt="frenzyFoto">
+          <div class="card-body">
+            <h5 class="card-title">Frenzy</h5>
+            <p class="card-text">Se trata de una pistola ametralladora ligera que destaca a la hora de disparar en movimiento. Tiene una velocidad de disparo muy alta, pero es difícil de controlar, así que a media distancia es mejor apostar por ráfagas cortas</p>            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/sheriff.webp" class="card-img-top" alt="sheriffFoto">
+          <div class="card-body">
+            <h5 class="card-title">Sheriff</h5>
+            <p class="card-text">Sus poderosos disparos causan un retroceso pronunciado y dominar esta arma requiere dedicación.</p>            
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/spectre.webp" class="card-img-top" alt="spectreFoto">
+          <div class="card-body">
+            <h5 class="card-title">Spectre</h5>
+            <p class="card-text">Es un arma todoterreno con estadísticas de daño, velocidad de disparo y precisión muy equilibradas tanto a distancias cortas como medias.</p>           
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/stinger.webp" class="card-img-top" alt="stingerFoto">
+          <div class="card-body">
+            <h5 class="card-title">Stinger</h5>
+            <p class="card-text">El cargador de 20 balas puede vaciarse en un abrir y cerrar de ojos si te dejas llevar por el retroceso, pero también te permitira acertar disparos letales a distancias medias con la ayuda de la mira y un disparo controlado.</p>            
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/melee.png" class="card-img-top" alt="meleeFoto">
+          <div class="card-body">
+            <h5 class="card-title">Cuchillo</h5>
+            <p class="card-text">permite correr con rapidez, destruir objetos mucho más rápido y acabar con enemigos por la espalda de una sola cuchillada si usas el modo alternativo.</p>
+          </div>
+        </div>
+      </div>
+      <p class="estadisticas" id="estadisticas"> Estadisticas De Las Armas</p>
     <table id="armasValo">
         <tr>
             <th>Armas</th>
@@ -55,118 +205,73 @@
             <th>Daño piernas y brazos</th>
         </tr>
     </table>
-    <div class="centerClock">
-        <div class="fechaReloj">
-            <div class="fecha">
-                <p id="diaSemana" class="diaSemana"></p>
-                <p id="dia" class="dia"></p>
-                <p>de</p>
-                <p id="mes" class="mes"></p>
-                <p>del</p>
-                <p id="annio" class="annio"></p>
+    <footer>
+        <script src="https://kit.fontawesome.com/5d36e69230.js" crossorigin="anonymous"></script>
+        <div class="container-fluid bg-dark p-3 text-white text-center">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img class="img-footer" src="img/valorant-logo-svg.png" width="200" height="200" alt="Logo">
+                </div>
+                <div class="col-md-4">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agentes.html">Agentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="armas.html">Armas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="centerClock">
+                        <div class="fechaReloj">
+                            <div class="fecha">
+                                <p id="diaSemana" class="diaSemana"></p>
+                                <p id="dia" class="dia"></p>
+                                <p>de</p>
+                                <p id="mes" class="mes"></p>
+                                <p>del</p>
+                                <p id="annio" class="annio"></p>
+                            </div>
+                            <div class="reloj">
+                                <p id="horas" class="horas"></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="container-redes text-center col-md-4">
+                        <ul>
+                            <li> <a href="https://www.facebook.com/gaming/valorant" class="facebook"><i class="fab fa-facebook-f"></i> </a></li>
+                            <li> <a href="https://www.instagram.com/playvalorantofficial/" class="instagram"><i class="fab fa-instagram"></i> </a></li>
+                            <li> <a href="https://twitter.com/PlayVALORANT" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li> <a href="https://www.youtube.com/c/PlayVALORANT" class="youtube"><i class="fab fa-youtube"></i> </a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-md-4"></div>      
+                    </div>               
+                </div>
             </div>
-
-            <did class="reloj">
-                <p id="horas" class="horas"></p>
-
-            </did>
-        </div>
-    </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://kit.fontawesome.com/5d36e69230.js" crossorigin="anonymous"></script>
+    <script src="js/modoOscuro.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/openweather.js"></script>
     <script src="js/valorantArmas.js"></script>
     <script src="js/reloj.js"></script>
-    <p id="temperatura"></p>
+    
 </body>
-<footer>
-    <div class="container-fluid bg-dark p-3 text-white">
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <img class="img-footer" src="img/valorant-logo-svg.png" width="100" height="100" alt="Logo">
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Index</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="agentes.html">Agentes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="armas.html">Armas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
 
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <div class="card bg-dark">
-                    <div class="card-header">
-                        <h4 class="card-title"></h4>
-                    </div>
-                    <div class="card-body">
-                        <div class="input-group">
-                            <input class="form-control" type="email" id="email" name="email"
-                                placeholder="Ingresa tu usuario de valorant">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-success" type="submit">Enviar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer text-center">
-                        <ul class="nav">
-                            <li>
-                                <a class="nav-link" href="http://www.facebook.com" target="blank">
-                                    <span class="text-white fs-1">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="http://www.instagram.com" target="blank">
-                                    <span class="text-white fs-1">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="http://www.twitter.com" target="blank">
-                                    <span class="text-white fs-1">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="http://www.twitch.com" target="blank">
-                                    <span class="text-white fs-1">
-                                        <i class="fa-brands fa-twitch"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="http://www.tiktok.com" target="blank">
-                                    <span class="text-white fs-1">
-                                        <i class="fa-brands fa-tiktok"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>
